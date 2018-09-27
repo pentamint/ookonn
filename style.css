@@ -1,0 +1,1156 @@
+/* 베너 폰트 */
+#fusion-slider-29 .slide-content-container{
+  text-align: right;
+}
+#fusion-slider-29 .slide-content{
+  display: inline-block;
+  text-align: left;
+  margin-right: 5rem;
+}
+#fusion-slider-29 .title-heading-left{
+  line-height: 1.5 !important;
+  font-size: 22px !important;
+}
+.mhead {
+    font-size: 3rem;
+    font-family: 'Arial Bold';
+    font-weight: 600;
+}
+.shead {
+  font-size: 1.4rem;
+}
+
+/* 헤더튀는거 방지 */
+.fusion-header-sticky-height{
+  height: auto !important;
+}
+
+/* My account */
+#myAccount-main .woocommerce-MyAccount-content{
+  margin-left: 0px;
+}
+
+/* new personal page eidt */
+/* preview boxs*/
+#text-section{
+  width: 110px;
+  color: white;
+  background: #333;
+  height: 70px;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 20%;
+  line-height: 70px;
+  font-size: 60px;
+  font-weight: 900;
+  text-align: center;
+}
+
+#main-line{
+  width: 80px;
+  height: 200px;
+  margin: 0 auto;
+  position: absolute;
+  background: black;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+#side-line{
+  width: 100px;
+  height: 200px;
+  background: white;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+#preview-wrap{
+  width: 200px;
+  height: 200px;
+  background: #333;
+  overflow: hidden;
+  position: relative;
+}
+/*#nf-field-79-container{
+  display: none;
+}*/
+#nf-field-79-container{
+  clear: left;
+  float: left;
+}
+
+#nf-field-65-container{
+  clear: right;
+  float: right;
+  width: 65%;
+}
+/* /preview setting end */
+
+#ordering .nf-field-container{
+  margin-bottom: 20px;
+}
+#ordering h3{
+  margin-bottom:0;
+}
+#nf-field-57{
+  display: block;
+  margin: 0 auto;
+  padding: 0;
+  width: 200px;
+  height: 50px !important;
+  border: none;
+  background: #e56363;
+  color: white;
+  font-size: 20px;
+  font-weight: 900;
+}
+#nf-field-63-container,
+#nf-field-59-container,
+#nf-field-77-container,
+#nf-field-78-container{
+  width: 48%;
+}
+#nf-field-63-container,
+#nf-field-59-container{
+  clear: left;
+  float: left;
+}
+#nf-field-77-container,
+#nf-field-78-container{
+  clear: right;
+  float: right;
+}
+#nf-field-77-container .nf-field-description p{
+  position: absolute;
+  bottom: -30px;
+  font-size: 10px;
+}
+#txt-box{
+  font-size: 1rem;
+}
+#nf-field-64-container{
+  margin-left: 0;
+}
+#show-price-btn,
+#open-order-form{
+  color: #e56363;
+  cursor: pointer;
+}
+#price-info{
+  transition-duration: 0.4s;
+  overflow: hidden;
+  padding: 0px 25px;
+  height: 0;
+}
+.PIBonoff{
+  height: 5rem !important;
+  margin-bottom: 18px;
+}
+#ordering h3{
+  font-weight: 900;
+}
+#nf-field-78{
+  border: 1px solid #d2d2d2;
+}
+#order-info a,
+#price-info b,
+#ordering h3{
+  color: #e56363;
+}
+#order-info a:hover{
+  color: #d2d2d2;
+}
+#order-form{
+  display:none;
+}
+#nf-field-65-wrap .nf-field-label,
+#prev-label{
+  font-size: 16px;
+  color: #e56363;
+  font-weight: 900;
+  margin-bottom: 10px;
+}
+#nf-field-68-wrap h3{
+  margin-top:0;
+}
+.nf-form-layout .nf-before-form-content{
+  position: absolute;
+  right:15px;
+}
+/* personal form radio ver edit */
+#txt-box nf-field li {
+  width: 16%;
+  float: left;
+}
+
+#txt-box [type="radio"]:checked,
+#txt-box [type="radio"]:not(:checked) {
+    position: absolute;
+    left: -9999px;
+}
+#txt-box [type="radio"]:checked + label,
+#txt-box [type="radio"]:not(:checked) + label
+{
+    position: relative;
+    padding-left: 28px;
+    cursor: pointer;
+    line-height: 20px;
+    display: inline-block;
+    color: #666;
+}
+#txt-box [type="radio"]:checked + label:before,
+#txt-box [type="radio"]:not(:checked) + label:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: -3px;
+    width: 25px;
+    height: 24px;
+    border: 1px solid #ddd;
+    border-radius: 0;
+    background: #fff;
+}
+#txt-box [type="radio"]:checked + label:after,
+#txt-box [type="radio"]:not(:checked) + label:after {
+    content: '';
+    width: 16px;
+    height: 20px;
+    background: #e56363;
+    position: absolute;
+    top: -1px;
+    left: 4px;
+    border-radius: 100%;
+    -webkit-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+}
+#txt-box [type="radio"]:not(:checked) + label:after {
+    opacity: 0;
+    -webkit-transform: scale(0);
+    transform: scale(0);
+}
+#txt-box [type="radio"]:checked + label:after {
+    opacity: 1;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+}
+
+/* 스트라이프 가운데 색상 */
+#nf-field-72-wrap [type="radio"]:checked + label:after,
+#nf-field-72-wrap [type="radio"]:not(:checked) + label:after{
+  width: 9px;
+  left: 8px;
+  border-radius: 0;
+}
+
+#nf-field-72-0[type="radio"]:checked + label:after{
+  background: black;
+}
+
+#nf-field-72-1[type="radio"]:checked + label:after{
+  background: gray;
+}
+
+#nf-field-72-2[type="radio"]:checked + label:after{
+  background: green;
+}
+
+#nf-field-72-3[type="radio"]:checked + label:after{
+  background: pink;
+}
+
+#nf-field-72-4[type="radio"]:checked + label:after{
+  background: red;
+}
+
+/* 스트라이프 테두리 색상 */
+#nf-field-73-wrap [type="radio"]:checked + label:after,
+#nf-field-73-wrap [type="radio"]:not(:checked) + label:after{
+  background: none;
+  width: 21px;
+  left: 2px;
+  border-left: 5px solid;
+  border-right: 5px solid;
+  border-radius: 0;
+}
+
+#nf-field-73-0[type="radio"]:checked + label:after{
+  border-color: white;
+}
+#nf-field-73-0[type="radio"]:checked + label:before{
+  background: black;
+}
+#nf-field-73-1[type="radio"]:checked + label:after{
+  border-color: black;
+}
+#nf-field-73-2[type="radio"]:checked + label:after{
+  border-color: red;
+}
+
+#nf-field-75-wrap [type="radio"]:checked + label:after{
+  top:-1.5px;
+  background: none;
+  content: 'A';
+  left:5px;
+  font-size: 16px;
+  font-weight: 900;
+  font-family: initial;
+  text-align: center;
+}
+#nf-field-75-wrap [type="radio"]:not(:checked) + label:after{
+  background: none;
+}
+#nf-field-75-0[type="radio"]:checked + label:after{
+  color: white;
+}
+#nf-field-75-0[type="radio"]:checked + label:before{
+  background: black;
+}
+#nf-field-75-1[type="radio"]:checked + label:after{
+  color: Black;
+}
+#nf-field-75-2[type="radio"]:checked + label:after{
+  color: red;
+}
+#nf-field-75-3[type="radio"]:checked + label:after{
+  color: pink;
+}
+#nf-field-75-4[type="radio"]:checked + label:after{
+  color: gray;
+}
+#nf-field-75-5[type="radio"]:checked + label:after{
+  color: green;
+}
+/* /radio button */
+
+
+form.checkout #billing_first_name_field, form.checkout #shipping_first_name_field{
+  width: 100%;
+}
+.ui-widget-overlay{
+  z-index: 100000 !important;
+}
+
+#popmake-686{
+  position: fixed;
+  border: 3px solid #e56363;
+  border-radius: 10px;
+  box-shadow: 5px 5px 20px 5px rgba(3, 3, 3, 0.6);
+  padding: 40px 50px;
+  max-width:900px;
+}
+#pum_popup_title_686{
+  color: #666;
+  text-align: center;
+  font-weight: 900;
+  margin-bottom:20px;
+}
+#popmake-686 .pum-content.popmake-content p{
+  margin-top:20px;
+  line-height: 1.8em;
+  font-size: 14px;
+}
+#popmake-686 .pum-content.popmake-content p span{
+  color:#e56363;
+}
+#popmake-686 button{
+  color: #e56363;
+  border: 2px solid #e56363;
+  background-color: #fff;
+  font-weight: 900;
+}
+#popmake-686 .pum-content.popmake-content{
+  height: 490px;
+  overflow: auto;
+}
+
+#txt-box{
+  line-height: 1.8em;
+}
+#txt-box > div > p{
+  margin-bottom: 18px !important;
+}
+
+/* 퍼스널 주문양식 */
+#nf-form-2-cont{
+  padding: 30px 40px;
+}
+#nf-form-title-2 > h3{
+  text-align: center;
+  font-size: 25px;
+  font-weight: 600;
+  color: #666;
+}
+.nf-form-wrap {
+  background: #f8f8f8;
+  padding: 30px 40px;
+  margin: 15px 0;
+}
+.nf-form-fields-required{
+  float:right;
+}
+.nf-field-element input, .nf-field-element select{
+  height:30px !important;
+  padding:0 10px;
+}
+.nf-field-element input, .nf-field-element textarea{
+  padding:10px;
+}
+#nf-field-45-container, #nf-field-17-container,
+#nf-field-13-container, #nf-field-20-container,
+#nf-field-53-container, #nf-field-22-container,
+#nf-field-46-container, #nf-field-76-container{
+  width: 300px;
+  display: block;
+  float: left;
+  margin: 10px 20px;
+}
+#nf-field-46-container, #nf-field-76-container{
+  width:640px;
+}
+#nf-field-48{
+   width:640px;
+   margin:10px 20px;
+}
+#nf-field-17-container{
+  clear: none;
+}
+#nf-field-52-container,
+#nf-field-5-container,
+#nf-field-21-container,
+#nf-field-55-container{
+  margin-bottom:0;
+}
+.nf-form-wrap h3{
+  font-weight: 600;
+  color:#e56363;
+}
+#nf-field-11-container{
+  text-align: center;
+}
+#nf-field-11{
+  padding: 0 30px;
+  background: #e56363;
+  height: 50px !important;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+
+
+/* 장바구니 배송비계산 */
+.fusion-post-content p, .post-content p{
+    margin-bottom:8px !important;
+}
+
+/* main page _ SNS part edit */
+.instagram{
+width:568px;
+height:auto;
+border: double 4px lightgray;
+}
+
+#sb_instagram .sb_instagram_header{
+margin:0;
+}
+
+#sb_instagram #sbi_load .sbi_load_btn, #sb_instagram .sbi_follow_btn a{
+margin-bottom: 5px auto 15px;
+}
+
+.newsletter{
+        width:568px;
+        height: 359px;
+        border: double 4px lightgray;
+}
+
+/*----- Default Settings -----*/
+
+/*----- General Design Settings -----*/
+
+/* extra menue setting */
+#menu-extra-menu{
+    position:absolute;
+    left:50%;
+    margin-top: 10px;
+    margin-left: -39.9px;
+    padding-left: 0px;
+    list-style:none;
+    z-index:1;
+    text-align:center;
+}
+
+#menu-item-256 > a{
+    color:#adadad;
+}
+#menu-item-256 > .sub-menu{
+    list-style:none;
+    padding:0;
+    margin:0;
+    display:none;
+}
+
+/*------ Font Design -------*/
+body { /* Body font setting */
+    font: 14px/20px "Montserrat",'Malgun Gothic',"Antic Slab",Arial,Helvetica,sans-serif;
+}
+h1, h2, h3, h4, h5, h6 { /* Title font setting */
+    font-family: "Montserrat", 'Malgun Gothic', "Antic Slab" !important;
+}
+.fusion-header .menu-text { /* Main nav menu font settings */
+    text-transform: uppercase;
+}
+.fusion-megamenu-title, .button-default, .fusion-main-menu .sub-menu li a {
+	font-family: "Montserrat", 'Malgun Gothic', "Antic Slab";
+}
+.fusion-main-menu > ul > li > a, .side-nav li a {
+	font-family: "Montserrat", 'Malgun Gothic', "Antic Slab";
+}
+/*------ /Font Design ------*/
+
+
+/*------ article ------*/
+/*text section edit*/
+.fusion-post-content p, .post-content p{
+    margin:0;
+}
+.hw-text { /* Homepage Wording */
+    font-size: 1.6rem;
+    line-height: 2.6rem;
+}
+
+/*item border delete*/
+.woocommerce > ul > li {
+    border: none;
+}
+
+/*product_title*/
+.product-title{
+    text-align: center;
+}
+
+/*price align*/
+.fusion-price-rating > .price{
+    margin: 0 auto ;
+}
+
+/*price txt color*/
+.price > .woocommerce-Price-amount{
+    color:#333333;
+    font-weight:600;
+}
+/*product title edit*/
+.product-title > a {
+    color:#909090;
+    font-weight:500;
+}
+
+.product-title > a:hover {
+    color:#e56363;
+}
+
+.product-details{
+    margin-top:10px;
+    background-color:white;
+}
+/*------ /article ------*/
+
+
+/*------ footer-design ------*/
+.fusion-widget-area .widget .recentcomments .comment-author-link a:before,
+.fusion-widget-area .widget_archive li a:before,
+.fusion-widget-area .widget_categories li a:before,
+.fusion-widget-area .widget_links li a:before,
+.fusion-widget-area .widget_meta li a:before,
+.fusion-widget-area .widget_nav_menu li a:before,
+.fusion-widget-area .widget_pages li a:before,
+.fusion-widget-area .widget_recent_entries li a:before{
+    display:none;
+}
+#nav_menu-2 .menu > li{
+    border:none;
+    padding:0;
+    padding-bottom:14px;
+    font-weight:600;
+}
+
+#nav_menu-3 .menu > li{
+    border:none;
+    padding:0;
+    padding-bottom:14px;
+    font-weight:600;
+}
+
+#text-4 > .textwidget{
+    line-height:26px;
+}
+/*------ /footer-design ------*/
+
+/*------ Totop Design ------*/
+#toTop:before {
+    line-height: 40px;
+}
+#toTop {
+    background-color: #e56363;
+    border-radius: 0;
+    bottom: 40px;
+    height: 45px;
+    right: 40px;
+    width: 45px;
+    opacity: .85;
+    overflow: hidden;
+    z-index: 1055;
+}
+#toTop:hover {
+    opacity: 1;
+}
+/*------ /Totop Design ------*/
+
+/*--  contact design  --*/
+#contact_box > div{
+    max-width:590px;
+    margin:0 auto;
+}
+#contact_box > div > div > form > p{
+    margin: 10px 0 20px 0;
+}
+#submit{
+    position: relative;
+    display: block;
+    margin: 30px auto 0 auto;
+}
+/*--  /contact design  --*/
+
+/*----- Page Content Settings -----*/
+/* Image frame settings */
+
+/* Text block bullet settings */
+
+
+/*----- Plugin Settings -----*/
+
+/*----- Transitions -----*/
+
+/*----- Responsive Settings -----*/
+
+
+@media screen and (min-width: 1281px) {
+/*------ Header Design ------*/
+
+.fusion-is-sticky .fusion-main-menu .fusion-main-menu-icon:after,
+.fusion-is-sticky .fusion-main-menu .fusion-widget-cart-counter > a:before,
+.fusion-is-sticky .fusion-main-menu > ul > li > a{
+    height: 74px;
+    line-height: 74px;
+}
+
+
+/*search txt*/
+.fusion-main-menu .fusion-main-menu-search:before {
+    content: "SEARCH";
+    position: absolute;
+    font-family: "Montserrat", 'Malgun Gothic', "Antic Slab";
+    color:#333333;
+    font-size:14px;
+    top: 50%;
+    right: 10px;
+    width: 59px;
+    height: 20px;
+    margin-top:-10px;
+    margin-right:15px;
+    cursor:default;
+    font-weight:500;
+}
+
+/*cart txt*/
+.fusion-main-menu .fusion-main-menu-cart:before {
+    content: "MY CART";
+    position: absolute;
+    font-family: "Montserrat", 'Malgun Gothic', "Antic Slab";
+    color:#333333;
+    font-size:14px;
+    top: 50%;
+    right: -10px;
+    width: 70px;
+    height: 20px;
+    margin-top:-10px;
+    margin-right:25px;
+    cursor:default;
+    font-weight:500;
+}
+
+.fusion-header{
+        height:74px !important;
+    }
+
+.fusion-header.fusion-sticky-shadow{
+    height:74px !important;
+}
+
+/*top menu aline*/
+.fusion-main-menu{
+    position:relative;
+    width:100%;
+    padding-left: calc(50vw - 328.995px);
+}
+
+/*logo aline*/
+.fusion-logo{
+    position:absolute;
+    z-index:300;
+}
+
+/*cart icon*/
+.fusion-main-menu > ul > li:nth-child(6){
+    padding-right:1px;
+    padding-left:90px;
+    float:right;
+}
+
+/*search icon*/
+.fusion-main-menu > ul > li:nth-child(7){
+    padding-right:1px;
+    padding-left:80px;
+    float:right;
+}
+/*------- /Header Design ------*/
+}
+
+@media screen and (max-width: 1280px) {
+  #nf-field-45-container, #nf-field-17-container,
+  #nf-field-13-container, #nf-field-20-container,
+  #nf-field-53-container, #nf-field-22-container,
+  #nf-field-46-container, #nf-field-76-container{
+    width: 80%;
+    display: block;
+    float: left;
+    margin: 10px 10%;
+  }
+  #nf-field-46-container, #nf-field-76-container{
+    width:80%;
+  }
+  #nf-field-48{
+     width:80%;
+     margin:10px 10%;
+  }
+
+    /*------ header edit ------*/
+    /*search txt*/
+.fusion-main-menu .fusion-main-menu-search:before {
+    content: "SEARCH";
+    position: absolute;
+    font-family: "Montserrat", 'Malgun Gothic', "Antic Slab";
+    color:#333333;
+    font-size:14px;
+    top: 50%;
+    right: 10px;
+    width: 59px;
+    height: 20px;
+    margin-top:-10px;
+    margin-right:15px;
+    cursor:default;
+    font-weight:500;
+}
+
+/*cart txt*/
+.fusion-main-menu .fusion-main-menu-cart:before {
+    content: "MY CART";
+    position: absolute;
+    font-family: "Montserrat", 'Malgun Gothic', "Antic Slab";
+    color:#333333;
+    font-size:14px;
+    top: 50%;
+    right: -10px;
+    width: 70px;
+    height: 20px;
+    margin-top:-10px;
+    margin-right:25px;
+    cursor:default;
+    font-weight:500;
+}
+/*
+.fusion-header{
+        height:101px;
+    }
+
+.fusion-header.fusion-sticky-shadow{
+    height:100px !important;
+}*/
+
+/*top menu aline*/
+.fusion-main-menu{
+    position:relative;
+    width:100%;
+    padding-left: calc(50vw - 328.995px);
+}
+
+/*logo aline*/
+.fusion-logo{
+    position:absolute;
+    z-index:300;
+}
+
+/*cart icon*/
+.fusion-main-menu > ul > li:nth-child(6){
+    padding-right:1px;
+    padding-left:90px;
+    float:right;
+}
+
+/*search icon*/
+.fusion-main-menu > ul > li:nth-child(7){
+    padding-right:1px;
+    padding-left:80px;
+    float:right;
+}
+/*--- /header edit ---*/
+
+
+    .fusion-header-sticky-height{
+        height:136px !important;
+    }
+
+    .home-wording .fusion-column-wrapper {
+        padding: 78px 58.5px !important;
+    }
+    .home-wording .hw-text {
+        font-size: 1.3rem;
+        line-height: 2.4rem;
+    }
+
+    .fusion-main-menu{
+        margin-top:55px;
+        overflow:visible;
+    }
+    .fusion-main-menu > ul > li{
+        height:70px;
+    }
+    .fusion-main-menu > ul > li:nth-child(6){
+        position:absolute;
+        margin-top:-65px;
+        right:0px;
+        height:100px;
+    }
+    .fusion-main-menu > ul > li:nth-child(7){
+        position:absolute;
+        margin-top:-65px;
+        right:103.016px;
+        height:100px;
+    }
+
+    .fusion-header{
+        height:136px !important;
+    }
+    .fusion-header.fusion-sticky-shadow {
+        height:136px;
+    }
+    #mc-embedded-subscribe-form{
+        padding:10px 25px !important;
+    }
+}
+@media (max-width: 1024px) and (min-width: 1001px){
+  #price-info{
+    padding: 0 15px;
+    font-size: 0.8rem;
+  }
+}
+@media screen and (max-width: 1000px) {
+    /* 메인 슬라이더 */
+    #fusion-slider-29 .title-heading-left{
+      line-height: 1.4 !important;
+      font-size: 1.3rem !important;
+    }
+    #fusion-slider-29 .slide-content {
+      margin-right: 2rem;
+    }
+    #fusion-slider-29 .mhead {
+      font-size: 2.5rem;
+    }
+    #fusion-slider-29 .shead {
+      font-size: 1rem;
+    }
+
+    #popmake-686{
+      width:80%;
+    }
+    .home-wording .fusion-column-wrapper {
+        padding: 31.2px 46.8px !important;
+    }
+    .hw-text{
+        font-size:1.2em !important;
+    }
+
+    .fusion-mobile-menu-design-modern.fusion-header-v1 .fusion-header,
+    .fusion-mobile-menu-design-modern.fusion-header-v2 .fusion-header,
+    .fusion-mobile-menu-design-modern.fusion-header-v3 .fusion-header,
+    .fusion-mobile-menu-design-modern.fusion-header-v4 .fusion-header,
+    .fusion-mobile-menu-design-modern.fusion-header-v5 .fusion-header,
+    .fusion-mobile-menu-design-modern.fusion-header-v7 .fusion-header{
+        padding-top:10px;
+    }
+
+    .fusion-mobile-menu-icons > a{
+        float:none;
+        margin:30px;
+    }
+
+    .fusion-mobile-menu-icons > a:before{
+        color:#333333;
+    }
+
+     #about_us_txtBox > div , #delivery_txtBox > div, #warranty_txtBox > div, #access_box > div, #pricacy_box > div{
+         padding:30px !important;
+     }
+
+    .fusion-mobile-menu-design-modern.fusion-header-v1 .fusion-logo,
+    .fusion-mobile-menu-design-modern.fusion-header-v2 .fusion-logo,
+    .fusion-mobile-menu-design-modern.fusion-header-v3 .fusion-logo,
+    .fusion-mobile-menu-design-modern.fusion-header-v4 .fusion-logo,
+    .fusion-mobile-menu-design-modern.fusion-header-v5 .fusion-logo,
+    .fusion-mobile-menu-design-modern.fusion-header-v7 .fusion-logo{
+        width:100%;
+        text-align:center;
+        top:50%;
+        position:relative;
+    }
+
+    #menu-extra-menu{
+        display:none;
+    }
+
+    .fusion-secondary-header{
+        height:40px;
+    }
+
+    .fusion-alignleft{
+        border:none;
+        height:40px;
+    }
+
+    #explore_now{
+        font-size:0.8em;
+        border-width:0.08em !important;
+        top:-3em !important;
+    }
+
+    #shop_now{
+        width:300px !important;
+        border-width:0.05em !important;
+    }
+
+    .fusion-mobile-nav-holder.fusion-mobile-menu-text-align-left{
+        padding:0px !important;
+    }
+    .fusion-mobile-nav-holder{
+        position: relative;
+        width: calc(100% + 60px);
+        left: 0px;
+    }
+    .fusion-mobile-menu-icons{
+        position: relative;
+        background-color: white;
+        margin-top:0.8rem;
+        padding: 15px;
+        border-top: 0.001rem solid #f1f1f1;
+        width: calc(100% + 60px);
+        height: 51px;
+        left: -30px;
+        text-align: center;
+        float: left;
+    }
+
+    #mc-embedded-subscribe-form{
+        padding:10px 100px !important;
+    }
+}
+
+/*<<----- Mobile & Tablet Product align ----->>*/
+@media screen and (min-width:481px) and (max-width: 1000px) {
+  #txt-box{
+    font-size:0.9rem;
+  }
+  #nf-field-77-container .nf-field-description p{
+    font-size: calc(100vw / 84);
+  }
+    #personal-left-img-wrap, #personal-right-img-wrap{
+      width: 50% !important;
+    }
+    ul.products li.product {
+        width: 48% !important;
+        float: left !important;
+        margin-bottom:2em !important;
+        float: left !important;
+        clear: both;
+    }
+
+    #main .products li:nth-child(3n), #main .products li:nth-child(4n), .products li{
+        width:48% !important;
+    }
+
+    #main .products li:nth-child(2n-1){
+        clear: none !important;
+        float: left !important;
+    }
+    #main .products li:nth-child(2n){
+        clear: none !important;
+        float: right !important;
+    }
+}
+
+/* Font size in Mobile */
+@media screen and (max-width: 600px){
+  /* Popupmaker plugin reset */
+  .pum-container {
+    width: 90%;
+    left: 5%;
+  }
+  .pum-title {
+    font-size: 1.5em;
+  }
+  .pum-content {
+    font-size: 0.75em;
+  }
+  .pum-container video {
+    width: 90% !important;
+    height: 100% !important;
+  }
+  /* Popup settings end */
+  /* 메인 슬라이더 */
+  #fusion-slider-29 .title-heading-left{
+    line-height: 1.2 !important;
+    font-size: 1rem !important;
+  }
+  #fusion-slider-29 .slide-content {
+    margin-right: .5rem;
+  }
+  #fusion-slider-29 .mhead {
+    font-size: 1.8rem;
+  }
+  #fusion-slider-29 .shead {
+    font-size: .7rem;
+  }
+
+
+  #nf-field-57{
+    margin: 0;
+  }
+  #nf-field-65-container{
+    width: 100%;
+  }
+  #txt-box{
+    font-size:0.7rem;
+  }
+  #show-price-btn{
+    font-size:calc(0.7rem - 1px);
+  }
+  #alert p{
+    font-size: 0.7rem !important;
+  }
+  .PIBonoff{
+    height: 7rem !important;
+  }
+  #nf-field-77-container .nf-field-description p{
+    right: 0;
+    width: 80vw;
+    text-align: right;
+  }
+  #personal-left-img-wrap{
+    margin-bottom: 0 !important;
+  }
+  #txt-box nf-field li{
+    width: 30%;
+  }
+  #nf-field-57{
+    width:100px;
+    height: 40px !important;
+    font-size: 15px;
+  }
+  #price-info{
+    padding: 0 10px;
+  }
+  .nf-field-element textarea{
+    height: 140px !important;
+  }
+
+
+  #popmake-686{
+    width: 300px;
+    max-height: 440px;
+    padding: 35px 50px 20px;
+  }
+  #popmake-686 .pum-content.popmake-content{
+    height:235px;
+  }
+  #popmake-686 .pum-title{
+    font-size: 1.2em;
+    padding: 0 20px;
+    margin-bottom: 0px;
+  }
+
+
+  #nf-form-2-cont{
+    padding:0;
+  }
+  .nf-form-wrap{
+    padding:30px 15px;
+  }
+  #nf-field-45-container, #nf-field-17-container,
+  #nf-field-13-container, #nf-field-20-container,
+  #nf-field-53-container, #nf-field-22-container,
+  #nf-field-46-container, #nf-field-76-container {
+    width: 90%;
+    display: block;
+    float: left;
+    margin: 10px 5%;
+  }
+  #nf-field-46-container, #nf-field-76-container{
+    width:90%;
+  }
+  #nf-field-48{
+     width:90%;
+     margin:10px 5%;
+  }
+
+  #mc-embedded-subscribe-form{
+      padding:10px 25px !important;
+  }
+
+  .home-wording .fusion-column-wrapper {
+      padding: 13px 19.5px !important;
+  }
+  .hw-text{
+      font-size:13px !important;
+      line-height:6px !important;
+  }
+}
+@media (max-width: 370px){
+  /* 메인 슬라이더 */
+  #fusion-slider-29 .slide-content-container{
+    padding-right: 10px;
+  }
+  #fusion-slider-29 .title-heading-left{
+    line-height: 1.4 !important;
+    font-size: .7rem !important;
+  }
+  #fusion-slider-29 .slide-content {
+    margin-right: 0rem;
+  }
+  #fusion-slider-29 .mhead {
+    font-size: 1.65rem;
+  }
+  #fusion-slider-29 .shead {
+    font-size: .5rem;
+  }
+
+  #txt-box{
+    font-size:10px;
+  }
+
+  .nf-field-element textarea{
+    height: 100px !important;
+  }
+}
