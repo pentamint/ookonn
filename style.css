@@ -1,3 +1,166 @@
+/* =========================================================
+   CSS Table of Contents
+    1. Base
+    2. Layout
+    3. Module
+    4. State
+    5. Theme
+   ========================================================= */
+
+/* =========================================================
+   1. BASE
+   ========================================================= */
+
+/* =========================================================
+   1. /BASE
+   ========================================================= */
+
+/* =========================================================
+   2. LAYOUT
+   ========================================================= */
+/* ----- Header Area ----- */
+.fusion-header, .fusion-header-sticky-height {
+  height: 101px;
+  max-height: 100px;
+}
+/* Logo */
+.fusion-logo{
+  position:absolute;
+  z-index:300;
+}
+/* /Logo */
+.fusion-is-sticky .fusion-main-menu .fusion-main-menu-icon:after,
+.fusion-is-sticky .fusion-main-menu .fusion-widget-cart-counter > a:before,
+.fusion-is-sticky .fusion-main-menu > ul > li > a{
+    /* height: 74px;
+    line-height: 74px; */
+}
+
+.fusion-header.fusion-sticky-shadow{
+    /* height:74px !important; */
+}
+/* Nav Menu */
+.fusion-main-menu {
+  display: table;
+  position: unset;
+  height: 100px;
+  margin: 0 auto;
+  padding-left: 300px;
+  padding-right: 300px;
+  float: none;
+  overflow: visible;
+}
+.fusion-main-menu > ul {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+}
+.fusion-main-menu li {
+  display: inline-block;
+  padding: 10px 20px;
+  float: unset;
+}
+.fusion-main-menu > ul > li > a {
+  height: auto;
+  line-height: normal;
+}
+.fusion-main-menu > ul > li, .fusion-is-sticky .fusion-main-menu > ul > li {
+  padding-right: 20px;
+}
+.fusion-main-menu > ul > li.fusion-main-menu-search { /* search icon */
+  position: absolute;
+  padding-right: 115px;
+  right: 0;
+  top: 35px;
+}
+.fusion-is-sticky .fusion-main-menu>ul>li:last-child { /* avada last li fix */
+  padding-right: 115px;
+}
+.fusion-main-menu .fusion-main-menu-search:before {
+  position: absolute;
+  width: 70px;
+  height: 20px;
+  top: 8px;
+  right: 130px;
+}
+.fusion-main-menu > ul > li.fusion-main-menu-cart { /* cart icon */
+  position: absolute;
+  padding-right: 80px;
+  right: 0;
+  top: 35px;
+  z-index: 9;
+}
+.fusion-main-menu .fusion-main-menu-cart:before {
+  position: absolute;
+  width: 70px;
+  height: 20px;
+  top: 8px;
+  right: 5px;
+}
+@media screen and (max-width: 1200px) {
+  .fusion-header, .fusion-header-sticky-height {
+    height: 145px !important;
+    max-height: 145px;
+  }
+  .fusion-is-sticky .fusion-logo img {
+    width: 240px;
+  }
+  .fusion-main-menu {
+    margin-top: 68px;
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+/* ----- /Header Area ----- */
+/* =========================================================
+   2. /LAYOUT
+   ========================================================= */
+
+/* =========================================================
+   3. MODULE
+   ========================================================= */
+
+/* =========================================================
+   3. /MODULE
+   ========================================================= */
+
+/* =========================================================
+   4. STATE
+   ========================================================= */
+
+/* =========================================================
+   4. /STATE
+   ========================================================= */
+
+/* =========================================================
+   5. THEME
+   ========================================================= */
+/* ----- Header Area ----- */
+.fusion-main-menu > ul > li > a {
+  color: #4d4d4d;
+  font-weight: 600;
+}
+.fusion-main-menu .fusion-main-menu-search:before { /* search nav menu text */
+   content: "SEARCH";
+   font-family: "Montserrat", 'Malgun Gothic', "Antic Slab";
+   color: #4d4d4d;
+   font-size:14px;
+   cursor:default;
+   font-weight:500;
+}
+.fusion-main-menu .fusion-main-menu-cart:before { /*cart nav menu txt*/
+   content: "MY CART";
+   font-family: "Montserrat", 'Malgun Gothic', "Antic Slab";
+   color: #4d4d4d;
+   font-size:14px;
+   cursor:default;
+   font-weight:500;
+}
+/* ----- /Header Area ----- */
+/* =========================================================
+   5. /THEME
+   ========================================================= */
+
 /* 베너 폰트 */
 #fusion-slider-29 .slide-content-container{
   text-align: right;
@@ -18,11 +181,6 @@
 }
 .shead {
   font-size: 1.4rem;
-}
-
-/* 헤더튀는거 방지 */
-.fusion-header-sticky-height{
-  height: auto !important;
 }
 
 /* My account */
@@ -639,85 +797,7 @@ h1, h2, h3, h4, h5, h6 { /* Title font setting */
 
 
 @media screen and (min-width: 1281px) {
-/*------ Header Design ------*/
 
-.fusion-is-sticky .fusion-main-menu .fusion-main-menu-icon:after,
-.fusion-is-sticky .fusion-main-menu .fusion-widget-cart-counter > a:before,
-.fusion-is-sticky .fusion-main-menu > ul > li > a{
-    height: 74px;
-    line-height: 74px;
-}
-
-
-/*search txt*/
-.fusion-main-menu .fusion-main-menu-search:before {
-    content: "SEARCH";
-    position: absolute;
-    font-family: "Montserrat", 'Malgun Gothic', "Antic Slab";
-    color:#333333;
-    font-size:14px;
-    top: 50%;
-    right: 10px;
-    width: 59px;
-    height: 20px;
-    margin-top:-10px;
-    margin-right:15px;
-    cursor:default;
-    font-weight:500;
-}
-
-/*cart txt*/
-.fusion-main-menu .fusion-main-menu-cart:before {
-    content: "MY CART";
-    position: absolute;
-    font-family: "Montserrat", 'Malgun Gothic', "Antic Slab";
-    color:#333333;
-    font-size:14px;
-    top: 50%;
-    right: -10px;
-    width: 70px;
-    height: 20px;
-    margin-top:-10px;
-    margin-right:25px;
-    cursor:default;
-    font-weight:500;
-}
-
-.fusion-header{
-        height:74px !important;
-    }
-
-.fusion-header.fusion-sticky-shadow{
-    height:74px !important;
-}
-
-/*top menu aline*/
-.fusion-main-menu{
-    position:relative;
-    width:100%;
-    padding-left: calc(50vw - 328.995px);
-}
-
-/*logo aline*/
-.fusion-logo{
-    position:absolute;
-    z-index:300;
-}
-
-/*cart icon*/
-.fusion-main-menu > ul > li:nth-child(6){
-    padding-right:1px;
-    padding-left:90px;
-    float:right;
-}
-
-/*search icon*/
-.fusion-main-menu > ul > li:nth-child(7){
-    padding-right:1px;
-    padding-left:80px;
-    float:right;
-}
-/*------- /Header Design ------*/
 }
 
 @media screen and (max-width: 1280px) {
@@ -738,81 +818,6 @@ h1, h2, h3, h4, h5, h6 { /* Title font setting */
      margin:10px 10%;
   }
 
-    /*------ header edit ------*/
-    /*search txt*/
-.fusion-main-menu .fusion-main-menu-search:before {
-    content: "SEARCH";
-    position: absolute;
-    font-family: "Montserrat", 'Malgun Gothic', "Antic Slab";
-    color:#333333;
-    font-size:14px;
-    top: 50%;
-    right: 10px;
-    width: 59px;
-    height: 20px;
-    margin-top:-10px;
-    margin-right:15px;
-    cursor:default;
-    font-weight:500;
-}
-
-/*cart txt*/
-.fusion-main-menu .fusion-main-menu-cart:before {
-    content: "MY CART";
-    position: absolute;
-    font-family: "Montserrat", 'Malgun Gothic', "Antic Slab";
-    color:#333333;
-    font-size:14px;
-    top: 50%;
-    right: -10px;
-    width: 70px;
-    height: 20px;
-    margin-top:-10px;
-    margin-right:25px;
-    cursor:default;
-    font-weight:500;
-}
-/*
-.fusion-header{
-        height:101px;
-    }
-
-.fusion-header.fusion-sticky-shadow{
-    height:100px !important;
-}*/
-
-/*top menu aline*/
-.fusion-main-menu{
-    position:relative;
-    width:100%;
-    padding-left: calc(50vw - 328.995px);
-}
-
-/*logo aline*/
-.fusion-logo{
-    position:absolute;
-    z-index:300;
-}
-
-/*cart icon*/
-.fusion-main-menu > ul > li:nth-child(6){
-    padding-right:1px;
-    padding-left:90px;
-    float:right;
-}
-
-/*search icon*/
-.fusion-main-menu > ul > li:nth-child(7){
-    padding-right:1px;
-    padding-left:80px;
-    float:right;
-}
-/*--- /header edit ---*/
-
-
-    .fusion-header-sticky-height{
-        height:136px !important;
-    }
 
     .home-wording .fusion-column-wrapper {
         padding: 78px 58.5px !important;
@@ -820,33 +825,6 @@ h1, h2, h3, h4, h5, h6 { /* Title font setting */
     .home-wording .hw-text {
         font-size: 1.3rem;
         line-height: 2.4rem;
-    }
-
-    .fusion-main-menu{
-        margin-top:55px;
-        overflow:visible;
-    }
-    .fusion-main-menu > ul > li{
-        height:70px;
-    }
-    .fusion-main-menu > ul > li:nth-child(6){
-        position:absolute;
-        margin-top:-65px;
-        right:0px;
-        height:100px;
-    }
-    .fusion-main-menu > ul > li:nth-child(7){
-        position:absolute;
-        margin-top:-65px;
-        right:103.016px;
-        height:100px;
-    }
-
-    .fusion-header{
-        height:136px !important;
-    }
-    .fusion-header.fusion-sticky-shadow {
-        height:136px;
     }
     #mc-embedded-subscribe-form{
         padding:10px 25px !important;
